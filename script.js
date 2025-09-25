@@ -16,3 +16,14 @@ function changcolorthree() {
   btn.style.background = "rgb(16, 164, 223)";
   hed.style.background = "rgb(16, 164, 223)";
 }
+
+// main page
+let sidbar = document.getElementById("tside");
+
+function change() {
+  if (sidbar.style.display == "flex") {
+    sidbar.style.display = "none";
+  } else {
+    sidbar.style.display = "flex";
+  }
+}
